@@ -743,3 +743,4 @@ static void kCreateSJFTestTask( const char* pcParameterBuffer )
         kCreateTask( TASK_FLAGS_HIGHEST, (QWORD) kTestTaskSJF, 0xAB, kAToI(vcTime, 10));
         //kPrintf( "Task1 %d Created (%d)\n", i, kAToI(vcTime, 10) );
     }    
+}
